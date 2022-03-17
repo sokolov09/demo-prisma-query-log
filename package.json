@@ -1,0 +1,22 @@
+{
+  "name": "test-prisma-log",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "/bin/bash run.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sokolov09",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.11.0",
+    "fs": "*",
+    "prisma": "^3.11.0",
+    "prisma-query-log": "^3.1.0"
+  },
+  "engines": {
+    "node": "15.x",
+    "npm": "7.7.x"
+  }
+}
